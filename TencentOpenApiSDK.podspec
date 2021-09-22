@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
 
   s.libraries           = 'iconv', 'z', 'c++', 'sqlite3'
   s.frameworks          = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
-  s.resources           = "TencentOpenAPI.bundle"
+  s.resources           = "TencentOpenApi_IOS_Bundle.bundle"
   s.vendored_frameworks = "TencentOpenAPI.framework"
 end
